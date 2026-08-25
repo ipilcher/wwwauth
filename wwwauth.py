@@ -456,7 +456,7 @@ _EQUALS: typing.Final = _Equals()
 #-------------------------------------------------------------------------------
 
 def _parse_quoted_string(hdr: str, start: int) -> tuple[_QuotedString, int]:
-    """Parse a single quoted string helper for :func:`_parse_quoted_strings`).
+    """Parse a single quoted string (helper for :func:`_parse_quoted_strings`).
 
     Args:
         hdr: The header being parsed.
