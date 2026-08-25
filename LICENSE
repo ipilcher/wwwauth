@@ -1,0 +1,11 @@
+This repository uses multiple licenses.
+
+* The library itself (wwwauth.py) is distributed under the GNU Lesser General
+  Public License (LGPL), version 3.
+
+* The GNU licenses (lgpl-3.0.txt and gpl-3.0.txt) are copyrighted by the Free
+  Software Foundation, Inc.  Verbatim copies can be freely distributed, but no
+  changes are allowed.
+
+* All other files in the repository are distributed under the GNU General Public
+  License (GPL), version 3.
