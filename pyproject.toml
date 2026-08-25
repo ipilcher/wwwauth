@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "wwwauth"
+dynamic = ["version", "description"]
+requires-python = ">=3.14"
+license = "LGPL-3.0-or-later"
+license-files = ["lgpl-3.0.txt"]
+authors = [{name = "Ian Pilcher", email = "arequipeno@gmail.com"}]
+readme = "README.md"
+keywords = ["http", "authentication", "www-authenticate", "rfc9110"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/ipilcher/wwwauth"
+"Bug Tracker" = "https://github.com/ipilcher/wwwauth/issues"
+
+[tool.flit.sdist]
+include = ["LICENSE", "lgpl-3.0.txt", "gpl-3.0.txt"]
